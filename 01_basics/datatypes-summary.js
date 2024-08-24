@@ -33,3 +33,27 @@ const myFunction = function( ){
     
 }
 console.log(typeof outsideTemp);
+
+// =========================================
+
+// Stack (Primitive), Heap (Non- Primitive)
+
+let myGithubname = "ashiqur196"
+
+let anothername = myGithubname
+anothername = "learning Js"
+
+console.log(myGithubname);
+console.log(anothername);
+
+let userOne = {
+    email: "goforit@gmail.com",
+    userid: "notagoodid@gmail"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Ayon@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
